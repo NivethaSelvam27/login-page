@@ -1,0 +1,138 @@
+:root {
+    --red: #ff0000;
+    --blue: #0000ff;
+    --green: #52bb5b;
+    --white: #ffffff;
+    --black: #000000;
+    --lightpink: #FFB6C1;
+}
+
+* {
+    padding: 0px;
+    margin: 1px;
+}
+
+.container {
+    display: flex;
+}
+
+.side-bar {
+    height: 95vh;
+    width: 20vw;
+    text-align: center;
+    background-color: var(--green);
+    border: 2px solid black;
+}
+
+.main-container {
+    width: 80vw;
+    height: 95vh;
+    border: 2px solid black;
+}
+
+.nav-bar {
+    background-color: var(--lightpink);
+    height: 10vh;
+    border: 2px solid black;
+}
+
+.tab-1 {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 3px;
+    background-color: var(--green);
+    border: 2px solid black;
+}
+
+.tab-2 {
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--blue);
+    border: 2px solid black;
+}
+
+.main-div {
+    display: flex;
+    height: 60vh;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.row {
+    display: flex;
+}
+
+.container-1 {
+    display: flex;
+    width: 31vw;
+    height: 60vh;
+    background-color: var(--red);
+}
+
+.col-1 {
+    display: flex;
+    width: 10vw;
+    height: 58vh;
+    background-color: var(--green);
+    border: 1px solid black;
+}
+
+.col-2 {
+    display: flex;
+    width: 10vw;
+    height: 58vh;
+    padding-top: center;
+    background-color: var(--lightpink);
+    border: 1px solid black;
+
+}
+
+.col-3 {
+    display: flex;
+    width: 10vw;
+    height: 58vh;
+    background-color: var(--green);
+    border: 1px solid black;
+
+}
+
+.container-2 {
+    display: flex;
+    width: 50vw;
+    height: 60vh;
+    background-color: var(--lightpink);
+}
+
+.r7 {
+    display: flex;
+    justify-content: flex-start;
+    width: 48vw;
+    height: 20vh;
+    background-color: rgb(25, 30, 128);
+    /* justify-content: center;
+    justify-content: end; */
+    border: 1px solid black;
+}
+
+.r8 {
+    display: flex;
+    justify-content: flex-start;
+    width: 48vw;
+    height: 20vh;
+    background-color: rgb(25, 30, 128);
+    justify-content: center;
+    border: 1px solid black;
+}
+
+.r9 {
+    display: flex;
+    justify-content: flex-start;
+    width: 48vw;
+    height: 20vh;
+    background-color: rgb(25, 30, 128);
+    justify-content: end;
+    border: 1px solid black;
+}

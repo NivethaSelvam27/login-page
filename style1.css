@@ -1,0 +1,22 @@
+*{
+    padding: 0%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+}
+body{
+    background-color: rgb(194, 240, 240);
+    padding-left: 30px;
+    padding-top: 30px;
+}
+input {
+    width: 20%;
+    height: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-width: 1px;
+    border-color: brown;
+  }
